@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="HexCore Industrial logo">
+  <defs>
+    <linearGradient id="steel" x1="20" y1="18" x2="84" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9ddda"/>
+      <stop offset="0.42" stop-color="#6c7470"/>
+      <stop offset="1" stop-color="#1d2320"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="72" y1="12" x2="116" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#f05a0a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="145%">
+      <feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#070908" stroke-width="4" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M18 38 58 16v22L35 51v43l23 13v22L18 106z" fill="url(#steel)"/>
+    <path d="M110 38 70 16v22l23 13v43l-23 13v22l40-23z" fill="url(#orange)"/>
+    <path d="M50 44h18v27h20v18H68v31H50z" fill="#2d3531"/>
+    <path d="M57 64 72 55l15 9v18l-15 9-15-9z" fill="#ff8a13"/>
+    <path d="M66 69 72 65l7 4v8l-7 4-6-4z" fill="#070908"/>
+  </g>
+</svg>
